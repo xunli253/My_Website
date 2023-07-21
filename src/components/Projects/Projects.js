@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import Weather from "../../Assets/Projects/WeatherApp.png";
+import canva from "../../Assets/Projects/courtcanva.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import tasTest from "../../Assets/Projects/TASTest.png";
 
 function Projects() {
   return (
@@ -23,34 +23,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={canva}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Court Canva"
+              description="CourtCanva build with react.js, Next.js, Node.js and Chakra. Have features which allows user for choosing from various templates or fully customize their basketball court."
+              ghLink="https://github.com/xunli253/cc-app"
+              demoLink="https://www.courtcanva.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={tasTest}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="TAS Test"
+              description="TAS Test is a web application to collect data from old people which include listening, typing, video, speaking tests. It build with Vue and Sass. I also implemented responsive design principles to ensure the TAS Test was accessible on a wide range of devices, including mobile phones and tablets, using Vue.js and its built-in mobile-first design features."
+              ghLink="https://github.com/xunli253/tastest-candidate-web"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Weather}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Weather App"
+              description="Weather app is a simple-styled website that allows users to quickly look up global weather conditions. It build with react.js, Google Maps Embed API."
+              ghLink="https://github.com/xunli253/weather-app-react"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 

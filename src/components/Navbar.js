@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://velvety-sherbet-e82f3d.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >
