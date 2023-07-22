@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import blog from "../../Assets/Projects/blog.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import Weather from "../../Assets/Projects/WeatherApp.png";
 import canva from "../../Assets/Projects/courtcanva.png";
@@ -39,7 +39,18 @@ function Projects() {
               title="TAS Test"
               description="TAS Test is a web application to collect data from old people which include listening, typing, video, speaking tests. It build with Vue and Sass. I also implemented responsive design principles to ensure the TAS Test was accessible on a wide range of devices, including mobile phones and tablets, using Vue.js and its built-in mobile-first design features."
               ghLink="https://github.com/xunli253/tastest-candidate-web"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="My Blog"
+              description="My Blog is a web application that records my developer blog posts and experiences. It build with Next.js, Tailwind Css, Dark mode support, Vercel. "
+              ghLink="https://github.com/xunli253/My-Blog"
+              demoLink="https://velvety-sherbet-e82f3d.netlify.app/"
             />
           </Col>
 
@@ -50,43 +61,12 @@ function Projects() {
               title="Weather App"
               description="Weather app is a simple-styled website that allows users to quickly look up global weather conditions. It build with react.js, Google Maps Embed API."
               ghLink="https://github.com/xunli253/weather-app-react"
-              // demoLink="https://editor.soumya-jit.tech/"              
+                          
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
