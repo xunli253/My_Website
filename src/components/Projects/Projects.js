@@ -64,6 +64,16 @@ function Projects() {
                           
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="World Clock"
+              description="World Clock is a web application that display time in 4 different time zones. It build with react.js, Css "
+              ghLink="https://github.com/xunli253/world_clock"
+              demoLink="https://worldclockxun.netlify.app/"
+            />
+          </Col>
 
 
           
