@@ -3,11 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import blog from "../../Assets/Projects/blog.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import Weather from "../../Assets/Projects/WeatherApp.png";
 import canva from "../../Assets/Projects/courtcanva.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import tasTest from "../../Assets/Projects/TASTest.png";
+import worldClock from "../../Assets/Projects/world_clock.png"
 
 function Projects() {
   return (
@@ -66,7 +65,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blog}
+              imgPath={worldClock}
               isBlog={false}
               title="World Clock"
               description="World Clock is a web application that display time in 4 different time zones. It build with react.js, Css "
