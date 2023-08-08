@@ -36,7 +36,7 @@ function Projects() {
               imgPath={tasTest}
               isBlog={false}
               title="TAS Test"
-              description="TAS Test is a web application to collect data from old people which include listening, typing, video, speaking tests. It build with Vue and Sass. I also implemented responsive design principles to ensure the TAS Test was accessible on a wide range of devices, including mobile phones and tablets, using Vue.js and its built-in mobile-first design features."
+              description="The purpose of the project is to investigate whether a new computer test that has been developed at the University of Tasmania could potentially predict cognitive decline and subsequent risk of dementia. The new test is called ‘TAS Test’ and it assesses hand and other body movements (motor control) and thinking processes (cognition). It build with Vue, Sass, Typescript, eslint, and prettier. I also implemented responsive design principles to ensure the TAS Test was accessible on a wide range of devices, including mobile phones and tablets, using Vue.js and its built-in mobile-first design features."
               ghLink="https://github.com/xunli253/tastest-candidate-web"
               
             />
